@@ -1,0 +1,15 @@
+ digraph G {
+ node [shape=circle width=.8 ];
+ edge [arrowhead=none];
+ splines=false;
+
+Claire -> Laure;
+David -> Laure;
+Camille -> David;
+Camille -> JC;
+David -> JC;
+Camille -> Claire;
+David -> Charlotte;
+ }
+
+
