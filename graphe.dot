@@ -4,12 +4,15 @@
  splines=false;
 
 Claire -> Laure;
+Laure -> Charlotte;
 David -> Laure;
-Camille -> David;
-Camille -> JC;
+JC -> Camille;
+Camille -> Laure;
 David -> JC;
+Camille -> David;
 Camille -> Claire;
 David -> Charlotte;
+
  }
 
 
