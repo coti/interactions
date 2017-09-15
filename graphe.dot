@@ -12,7 +12,9 @@ David -> JC;
 Camille -> David;
 Camille -> Claire;
 David -> Charlotte;
-
+David -> Claire;
+Sébastien -> Laure;
+Sébastien -> Camille;
  }
 
 
