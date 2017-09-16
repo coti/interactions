@@ -1,22 +1,25 @@
- digraph G {
+ graph G {
+ overlap=scale;
  node [shape=circle width=.8 ];
  edge [arrowhead=none];
  splines=false;
 
-Claire -> Laure;
-Laure -> Charlotte;
-David -> Laure;
-JC -> Camille;
-Camille -> Laure;
-David -> JC;
-Camille -> David;
-Camille -> Claire;
-David -> Charlotte;
-David -> Claire;
-Sébastien -> Laure;
-Sébastien -> Camille;
-Franck -> Laure;
-Franck -> Camille;
+Claire -- Laure;
+Laure -- Charlotte;
+David -- Laure;
+JC -- Camille;
+Camille -- Laure;
+David -- JC;
+Camille -- David;
+Camille -- Claire;
+David -- Charlotte;
+David -- Claire;
+Sébastien -- Laure;
+Sébastien -- Camille;
+Franck -- Laure;
+Franck -- Camille;
+Sébastien -- Philippe;
+Laure -- Philippe;
  }
 
 
