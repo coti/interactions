@@ -1,9 +1,8 @@
- graph G {
- overlap=scale;
- node [shape=circle width=.8 ];
- edge [arrowhead=none];
- splines=false;
-
+graph G {
+    overlap=scale;
+    node [shape=circle width=.8];
+    edge [arrowhead=none];
+    splines=false;
 Claire -- Laure;
 Laure -- Charlotte;
 David -- Laure;
@@ -20,6 +19,14 @@ Franck -- Laure;
 Franck -- Camille;
 Sébastien -- Philippe;
 Laure -- Philippe;
+Charlotte -- Grégoire;
 Franck -- David;
 Franck -- Charlotte;
- }
+Franck -- Grégoire;
+Franck -- Didier;
+Franck -- Morgan;
+Franck -- Étienne;
+Étienne -- Didier;
+Étienne -- Camille;
+Didier -- Morgan;
+}
